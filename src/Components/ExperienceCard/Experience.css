@@ -1,0 +1,72 @@
+.work-experience-card-each{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2rem;
+    margin: 1.0rem;
+    max-width: 600px;
+}
+
+.work-experience-card-each h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.duration-place{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-place{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    background: rgba(103, 81, 185, 0.5);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.word-duration{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    background: rgba(103, 81, 185, 0.5);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.work-experience-card-each ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.work-experience-card-each ul li::after{
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #6751b9;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.35rem;
+}
+
+@media (max-width: 768px){
+    .work-experience-card-each{
+        margin: 0;
+    }
+
+    .work-experience-card-each h3{
+        font-size: 0.95rem;
+    }
+
+    .work-experience-card-each ul li{
+        font-size: 0.75rem;
+    }
+}
