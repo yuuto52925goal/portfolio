@@ -1,0 +1,114 @@
+.icon-back{
+    color: #4B2E83;
+    fill: linear-gradient(to right, #957DAD, #4B2E83);
+    margin: 20px;
+}
+
+.icon-front{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-tool{
+    margin: 20px;
+}
+
+.icon-soft{
+    margin: 20px;
+}
+
+.skill-card{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2.5rem;
+    align-items: center;
+    background-color: rgba(22, 17, 47, 0, 398);
+    backdrop-filter:blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.skill-card:hover{
+    background: linear-gradient(180deg, #aa94fe, 0%, #7c5fe6 100%);
+}
+
+.active:hover{
+    background: linear-gradient(180deg, #aa94fe, 0%, #7c5fe6 100%);
+}
+
+.skill-container{
+    margin: 4rem 0;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.skill-container::after,
+.skill-container::before{
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.skill-container::after{
+    top: -3rem;
+    left: 0rem;
+}
+
+.skill-container::before{
+    background: #9e51b9;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.skill-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.skills-show{
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-card span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.skill-content{
+    display: flex;
+    align-items: start;
+    gap: 3rem;
+}
+
+.skill-info{
+    flex: 1;
+}
+
+.skill-icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2a2252;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+    position: absolute;
+    top:-1rem;
+    left: -1rem;
+}

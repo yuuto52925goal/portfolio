@@ -1,0 +1,75 @@
+.image-me{
+    object-fit: cover;
+    max-height: 500px;
+    max-width: 500px;
+    width: 50vw;
+    height: 50vw;
+    min-width: 200px;
+    min-height: 200px;
+    object-position: center -100px;
+    border-radius: 50%;
+    border: none;
+}
+
+@media (max-width: 810px){
+    .image-me{
+        object-position: center -80px;
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 628px){
+    .image-me{
+        object-position: 0px;
+        max-height: 210px;
+    }
+}
+
+.profile::after,
+.profile::before{
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background-color: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.profile::after{
+    top: 0rem;
+    left: -5rem;
+}
+
+.profile::before{
+    bottom: -3.5rem;
+    right: 0rem;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.discription-profile{
+    display: inline;
+    margin: 30px;
+    width: 50%;
+}
+
+.discription-profile h2{
+    margin-bottom: 1rem;
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.discription-profile p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
