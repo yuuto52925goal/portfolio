@@ -22,7 +22,8 @@ export default function Home() {
       <Footer options={[
         {path:"/contacts", label: "Contacts"},
         {path: "/", label:"Home"},
-        {path: "/projects", label:"Projects"},]}/>
+        {path: "/projects", label:"Projects"},
+        ]}/>
     </div>
   )
 }

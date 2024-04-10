@@ -14,13 +14,13 @@
 }
 
 .projectCard h3{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
 }
 
 .project-content p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -30,4 +30,21 @@
 
 .project-content p{
     pointer-events: auto;
+}
+
+.ancher-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.ancher-link button{
+    background: #6751b9;
+    color: #fff;
+    padding: 5px;
+    min-width: 80px;
+    font-size: 1.2rem;
 }

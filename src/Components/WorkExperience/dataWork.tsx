@@ -11,9 +11,9 @@ export const WORKS:workType[] = [
         place:"Remote",
         time: "Intenship Jan 2024 - Present",
         description:[
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills"
+            "Managed a global online community, achieving a 239% increase in Instagram engagement",
+            "Focused on key performance indicators including 6% follower conversion, 50% account reach, and 3% save rate",
+            "Optimized content strategy through data analysis, leading to 890 followers"
         ]
 
     },
@@ -23,8 +23,7 @@ export const WORKS:workType[] = [
         time: "Part Time Nov 2023 - Apr 2024",
         description: [
             "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills"
+            "Coordinated sessions and tailored teaching strategies to optimize individual learning outcomes"
     ]
     },
     {
@@ -32,9 +31,9 @@ export const WORKS:workType[] = [
         place:"Denshin Tokyo Japan",
         time: "Part Time Jun 2022 - Aug 2023",
         description:[
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills",
-            "Tutored 50+ college students in Math (Algebra, Discrete Math, Calculus) and Computer Science (OOP and React), enhancing understanding and problem-solving skills"
+            "Tutored 15+ junior high students in Japan with understanding mathematical concepts such as algebra, geometry, and fractions boosting students success",
+            "Instructed 10+ junior high school students in Japan learn using English tools such as grammar and pronunciation to enhance English-speaking skills",
+            "Taught students test preparation techniques increasing student success by 8 %"
         ]
 
     }
