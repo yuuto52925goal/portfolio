@@ -36,7 +36,7 @@
 }
 
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -52,4 +52,26 @@
     color: aqua;
     font-weight: 1.5rem;
 }
+.projects .Projects{
+    color: aqua;
+    font-weight: 1.5rem;
+} 
 
+.resume .Resume{
+    color: aqua;
+    font-weight: 1.5rem;
+}
+
+.contacts .Contacts{
+    color: aqua;
+    font-weight: 1.5rem;
+}
+
+@media (max-width: 375px){
+    .navbar-ul{
+        column-gap: 5px;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+}

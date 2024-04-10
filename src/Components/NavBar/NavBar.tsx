@@ -21,6 +21,9 @@ const NavBar:React.FC<NavBarProps> = ({options}) =>{
                     <a className={`nav-link ${option.label}`} href={option.path}>{option.label}</a>
                 </li>
             ))}
+                <li key="5">
+                <a className='nav-link' href="Resume.pdf" target="_blank" rel="noopener noreferrer">Open Resume</a>
+                </li>
             </ul>
         </nav>
     </div>

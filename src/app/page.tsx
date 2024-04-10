@@ -5,23 +5,24 @@ import Header from '@/Components/Hero/Header'
 import NavBar from '@/Components/NavBar/NavBar'
 import Skills from '@/Components/Skills/Skills'
 import WorkExperience from '@/Components/WorkExperience/WorkExperience'
-
+import Footer from '@/Components/Footer/Footer';
 
 export default function Home() {
+
   return (
     <div className='home'>
       <NavBar options={[
+        {path:"/contacts", label: "Contacts"},
         {path: "/", label:"Home"},
-        {path:"/resume", label: "Resume"},
         {path: "/projects", label:"Projects"},
-        {path:"/contacts", label: "Contacts"}
       ]}/>
       <Header />
       <Skills />
       <WorkExperience/>
-      {/* <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <WorkWidget/>
-      </main> */}
+      <Footer options={[
+        {path:"/contacts", label: "Contacts"},
+        {path: "/", label:"Home"},
+        {path: "/projects", label:"Projects"},]}/>
     </div>
   )
 }

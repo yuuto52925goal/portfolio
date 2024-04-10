@@ -1,0 +1,33 @@
+.projectCard{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2rem;
+    margin: 1.0rem;
+    max-width: 600px;
+    min-height: 300px;
+}
+@media (max-width: 375px){
+    .projectCard{
+        padding: 1.3rem;
+    }
+}
+
+.projectCard h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.project-content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.projectCard:hover{
+    filter: blur(0.6px);
+}
+
+.project-content p{
+    pointer-events: auto;
+}
