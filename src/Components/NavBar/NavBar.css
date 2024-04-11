@@ -40,12 +40,14 @@
     color: #fff;
     border: none;
     text-decoration: none;
+    transition: transform 0.3s ease 0s;
 }
 
 .nav-link:hover{
     text-decoration: solid;
     /* text-decoration-color: #38bdf8; */
     color: aqua;
+    transform: translateY(-30px);
 }
 
 .home .Home{
@@ -67,11 +69,17 @@
     font-weight: 1.5rem;
 }
 
-@media (max-width: 375px){
+@media (max-width: 425px){
     .navbar-ul{
-        column-gap: 5px;
+        column-gap: 10px;
     }
     .nav-link{
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px){
+    .navbar-ul{
+        column-gap: 15px;
     }
 }

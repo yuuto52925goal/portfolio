@@ -14,3 +14,24 @@
 .icon{
     margin: 10px;
 }
+
+
+@media(max-width: 425px) {
+    .footer-page{
+        flex-direction: column;
+    }
+
+    .icons{
+        margin: 10px 0;
+    }
+
+    .footer-ul li a{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 375px){
+    .footer-ul li a{
+        font-size: 1.1rem;
+    }
+}

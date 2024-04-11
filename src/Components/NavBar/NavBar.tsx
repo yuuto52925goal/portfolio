@@ -22,7 +22,7 @@ const NavBar:React.FC<NavBarProps> = ({options}) =>{
                 </li>
             ))}
                 <li key="5">
-                <a className='nav-link' href="Resume.pdf" target="_blank" rel="noopener noreferrer">Open Resume</a>
+                <a className='nav-link' href="Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
                 </li>
             </ul>
         </nav>

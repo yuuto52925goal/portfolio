@@ -3,6 +3,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 25px;
     justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .projects-show h1{
@@ -55,4 +58,14 @@
         right: 0rem;
     }
 
+}
+
+@media (max-width: 375px){
+    .projects-section::before{
+        width: 26.125rem;
+    }
+
+    .projects-section::after{
+        width: 26.125rem;
+    }
 }

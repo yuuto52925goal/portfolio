@@ -41,3 +41,38 @@
     align-items: center; */
 }
 
+.slick-track{
+    width: fit-content;
+}
+
+@media (max-width: 320px){
+    .experience-container{
+        margin-bottom: 1rem;
+    }
+
+    .experience-card{
+        height: 480px;
+    }
+}
+@media (max-width: 425px){
+    .experience-container{
+        margin-bottom: 1rem;
+    }
+
+    .experience-card{
+        height: 430px;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+.experience-container {
+    animation: pulse 3s ease-in 1s;
+}

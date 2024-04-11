@@ -63,10 +63,38 @@
     }
 
     .work-experience-card-each h3{
-        font-size: 0.95rem;
+        font-size: 1.3rem;
     }
 
     .work-experience-card-each ul li{
-        font-size: 0.75rem;
+        font-size: 1.2rem;
     }
+
+    .work-experience-card-each{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    .work-experience-card-each h3{
+        font-size: 1.0rem;
+    }
+    .work-experience-card-each ul li{
+        font-size: 1.0rem;
+    }
+}
+
+@keyframes flip{
+    from{
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(180deg);
+    }
+
+}
+
+.work-experience-card-each {
+    animation: flip 3s infinite 1s 1 normal forwards;
 }
