@@ -47,11 +47,11 @@
 
 @media (max-width: 320px){
     .experience-container{
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .experience-card{
-        height: 480px;
+        height: 520px;
     }
 }
 @media (max-width: 425px){
